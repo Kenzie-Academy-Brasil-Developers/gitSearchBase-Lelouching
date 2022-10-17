@@ -1,0 +1,80 @@
+.button-submit{
+    background-color: var(--color-disabled-1);
+    color: var(--color-disabled-2);
+    width: 100%;
+    max-width: 20rem;
+    border: none;
+    padding: 0.75rem;
+    border-radius: var(--radius-2);
+}
+
+#button-allowed{
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+#button-allowed:hover{
+    background-color: var(--color-alert);
+}
+
+.email-button{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-2);
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-2);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+}
+
+.email-button:hover{
+    background-color: var(--color-alert);
+}
+
+.exchange-user-button{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-2);
+    color: var(--color-grey-7);
+    background-color: var(--color-disabled-3);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    min-width: 11.4375rem;
+}
+
+.exchange-user-button:hover{
+    background-color: var(--color-grey-2);
+}
+
+.repo-button{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--color-grey-7);
+    padding: 0 0.5rem;
+    border: 0.0625rem solid var(--color-grey-7);
+    background: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.repo-button:hover{
+    background-color: var(--color-brand-2);
+}
+
+.demo-button{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--color-grey-7);
+    padding: 0 0.5rem;
+    border: 0.0625rem solid var(--color-grey-7);
+    background: none;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.demo-button:hover{
+    background-color: var(--color-brand-2);
+}

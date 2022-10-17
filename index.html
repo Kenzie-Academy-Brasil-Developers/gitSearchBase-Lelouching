@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/flex.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main class="flex flex-row">
+      <section class="git-search container flex justify-center flex-column">
+        <h1 class="site-logo">Git Search</h1>
+        <p class="git-description">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+        <div class="div-users flex flex-row align-i-center">
+          <span class="recently-found flex flex-row">Achados recentemente:</span>
+          <ul class="users-found flex flex-row"></ul>
+        </div>
+      </section>
+      <section class="search-user container flex justify-center flex-column">
+        <h2 class="search-for-user">Procurar por um usuário</h2>
+        <div class="div-search-for-user flex flex-column">
+          <span class="github-user">Usuário github</span>
+          <form action="" class="form-user flex flex-column">
+            <input class="input-search-user flex flex-column" type="text" placeholder="Digite um usuário do github aqui...">
+            <span class="user-not-found">Usuário não encontrado</span>
+            <button class="button-submit">Ver perfil do github</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./pages/home/index.js"></script>
+  </body>
+</html>

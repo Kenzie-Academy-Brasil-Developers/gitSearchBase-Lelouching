@@ -1,1 +1,50 @@
 /* Desenvolva sua estilização aqui...*/
+
+body{
+    background-color: var(--color-grey-2);
+}
+
+header{
+    height: 12rem;
+}
+
+.image-profile{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.125rem solid var(--color-brand-2);
+}
+
+.div-user-profile{
+    gap: 1.5rem;
+}
+
+.div-user-profile-2{
+    gap: 0.5rem;
+    max-width: 31.25rem;
+}
+
+.nav-buttons{
+    gap: 1rem;
+}
+
+.repo-lists{
+    gap: 3rem;
+}
+
+.repo-list{
+    width: 45%;
+    max-width: 20.25rem;
+    border-radius: var(--radius-1);
+    border: 0.125rem solid rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+.repo-list:hover{
+    background-color: var(--color-grey-1);
+}
+
+.div-buttons-repo{
+    gap: 1rem;
+}

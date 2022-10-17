@@ -1,0 +1,60 @@
+.site-logo{
+    font-size: var(--font-size-1);
+    color: var(--color-grey-7);
+    font-weight: var(--weight-2);
+}
+
+.git-description{
+    font-size: var(--font-size-2);
+    color: var(--color-grey-7);
+    font-weight: var(--weight-4);
+}
+
+.recently-found{
+    font-size: var(--font-size-3);
+    color: var(--color-grey-7);
+    font-weight: var(--weight-3);
+}
+
+.search-for-user{
+    font-size: var(--font-size-2);
+    color: var(--color-grey-7);
+    font-weight: var(--weight-3);
+}
+
+.github-user{
+    font-size: var(--font-size-4);
+    color: var(--color-grey-7);
+    font-weight: var(--weight-3);
+}
+
+.user-not-found{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--color-alert);
+    display: none;
+}
+
+.user-name{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-grey-7);
+}
+
+.user-bio{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-3);
+    color: var(--color-disabled-4);
+}
+
+.project-title{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-3);
+    color: var(--color-grey-7);
+}
+
+.project-description{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: rgba(255, 255, 255, 0.6);;
+}

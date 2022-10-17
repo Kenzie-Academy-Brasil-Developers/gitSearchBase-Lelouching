@@ -4,12 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/texts.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/flex.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Nome do usuário Github</title>
   </head>
   <body>
-    <main></main>
+    <header class="container-2 flex align-i-center justify-between">
+      <div class="div-user-profile flex align-i-center">
+        <img class="image-profile" src="" alt="">
+        <div class="div-user-profile-2 flex flex-column">
+          <h2 class="user-name"></h2>
+          <span class="user-bio"></span>
+        </div>
+      </div>
+      <nav class="nav-buttons flex align-i-center">
+        <button class="email-button">Email</button>
+        <a href="../../index.html">
+          <button class="exchange-user-button">Trocar de usuário</button>
+        </a>
+      </nav>
+    </header>
+    <main class="container-2">
+      <ul class="repo-lists flex flex-wrap justify-between"></ul>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
