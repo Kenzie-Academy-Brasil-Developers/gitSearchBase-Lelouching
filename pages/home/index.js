@@ -71,6 +71,7 @@ async function getData(inputValue, userNotFound) {
         name: dataJson.name,
         image: dataJson.avatar_url,
         bio: dataJson.bio,
+        email: dataJson.email,
         repositories: dataRepoJson
     }
         

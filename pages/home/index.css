@@ -27,6 +27,11 @@
     width: 2.75rem;
     height: 2.75rem;
     cursor: pointer;
+    border: 0.0625rem solid transparent;
+}
+
+.user-image:hover{
+    border: 0.0625rem solid var(--color-grey-7);
 }
 
 .div-search-for-user{

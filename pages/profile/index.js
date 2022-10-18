@@ -11,6 +11,8 @@ function renderUser() {
     imageProfile.src = userSelectedJson.image
     userName.innerHTML = userSelectedJson.name
     userBio.innerHTML = userSelectedJson.bio
+
+    console.log(userSelectedJson)
     
     const ul = document.querySelector(".repo-lists")
 
