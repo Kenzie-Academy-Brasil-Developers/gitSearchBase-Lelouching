@@ -15,9 +15,11 @@ function inputValidation() {
         if(inputSearchUser.value.length > 0) {
             buttonSubmit.id = "button-allowed"
             buttonSubmit.type = "submit"
+            buttonSubmit.disabled = false
         } else {
             buttonSubmit.id = ""
             buttonSubmit.type = ""
+            buttonSubmit.disabled = true
         }
     })
 }
@@ -106,18 +108,22 @@ function renderRecentUsers() {
         let li = document.createElement("li")
         let anchor = document.createElement("a")
         let imageUser = document.createElement("img")
+        let acessarPerfil = document.createElement("span")
 
+        li.classList.add("list-users-recent")
         imageUser.classList.add("user-image")
+        acessarPerfil.classList.add("access-profile")
 
+        acessarPerfil.innerText = "Acessar este perfil"
         anchor.href = "../pages/profile/index.html"
         imageUser.id  = element.name
         imageUser.src = element.image
 
         ulUsersRecent.appendChild(li)
-        li.appendChild(anchor)
-        anchor.appendChild(imageUser)
+        li.append(imageUser, anchor)
+        anchor.appendChild(acessarPerfil)
 
-        imageUser.addEventListener("click", (event) => {
+        imageUser.addEventListener("mouseenter", (event) => {
             if(event.target.id == element.name) {
                 const userObjectJson = JSON.stringify(element)
                 const userSelected = localStorage.setItem("user-selected", userObjectJson)
