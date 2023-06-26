@@ -1,0 +1,1 @@
+Nesse projeto você pode buscar por um perfil do GitHub, após pesquisado você irá ver algumas informações da conta e os projetos da pessoa, além disso, os últimos três usuários pesquisados ficam salvos sem precisar digitar o nome deles novamente.
